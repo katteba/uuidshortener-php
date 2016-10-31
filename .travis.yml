@@ -8,5 +8,8 @@ php:
   - hhvm
   - nightly
 
-script: phpunit --bootstrap vendor/autoload.php tests
+before_script:
+  - composer install --dev
+
+script: vendor/bin/phpunit --bootstrap vendor/autoload.php tests
 
