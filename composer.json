@@ -14,7 +14,11 @@
     ],
     "autoload": {
         "psr-4": {
-            "Katteba\\UUID\\": "src/"
+            "Katteba\\UUID\\": "src/",
+            "Katteba\\UUID\\UUIDShortener\\Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
     }
 }

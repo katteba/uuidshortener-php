@@ -17,10 +17,10 @@ class UUIDShortener
     public static function encode($uuid)
     {
         if (!preg_match(self::UUID_PATTERN, $uuid)) {
-            throw new \InvalidArgumentException(sprintf('`%s` is not UUID string.'));
+            throw new \InvalidArgumentException(sprintf('`%s` is not UUID string.', $uuid));
         }
 
-        $data = pack("H*", str_replace('-', '', $uuid));
+        $data = pack('H*', str_replace('-', '', $uuid));
 
         return rtrim(Base32::encode($data), '=');
     }
