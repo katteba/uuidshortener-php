@@ -7,11 +7,10 @@ use PHPUnit\Framework\TestCase;
 
 class UUIDShortenerTest extends TestCase
 {
-    /**
-     * @expectedException \InvalidArgumentException
-     */
     public function testInvalidUUID()
     {
+        $this->expectException(\InvalidArgumentException::class);
+
         UUIDShortener::encode('invalid-uuid');
     }
 
