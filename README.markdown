@@ -1,8 +1,10 @@
 UUID Shortener
 ==============
 
-[![Latest Stable Version](https://poser.pugx.org/katteba/uuidshortener/v/stable)](https://packagist.org/packages/katteba/uuidshortener) ![Build Status](https://github.com/katteba/uuidshortener-php/actions/workflows/ci.yml/badge.svg)
- [![License](https://poser.pugx.org/katteba/uuidshortener/license)](https://packagist.org/packages/katteba/uuidshortener)
+[![Latest Stable Version](https://poser.pugx.org/katteba/uuidshortener/v/stable)](https://packagist.org/packages/katteba/uuidshortener)
+[![Build Status](https://github.com/katteba/uuidshortener-php/actions/workflows/ci.yml/badge.svg)](https://github.com/katteba/uuidshortener-php/actions/workflows/ci.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/753286905fc15da7b380/maintainability)](https://codeclimate.com/github/katteba/uuidshortener-php/maintainability)
+[![License](https://poser.pugx.org/katteba/uuidshortener/license)](https://packagist.org/packages/katteba/uuidshortener)
 
 [Original by Obj-C](https://github.com/kishikawakatsumi/UUIDShortener)
 
